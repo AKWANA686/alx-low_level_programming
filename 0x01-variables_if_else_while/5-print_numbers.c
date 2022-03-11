@@ -3,7 +3,7 @@
 /**
  * main - main block
  * Description - prints base 10 numbers
- * starting from 0 
+ * starting from 0
  * followed by a new line
  * Return: 0
  */
@@ -15,4 +15,4 @@ int main(void)
 		printf("%d", a);
 	printf("\n");
 	return (0);
-}	
+}
