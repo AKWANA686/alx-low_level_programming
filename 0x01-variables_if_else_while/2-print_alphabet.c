@@ -3,15 +3,22 @@
 #include <time.h>
 
 /**
- * main - Entry point
- *
+ * main - main block
+ * Description - prints alphabet in lowercase
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char low;
+	char a = 'a';
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low"\n"):
+	while (a <= 'z')
+	{
+		putchar(a);
+		a++;
+	
+	}
+	putchar('\n');
+
+	return (0);
 
 }	
