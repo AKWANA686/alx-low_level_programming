@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- *  * main - main block
- *   * Description - enter a random number
- *    * determine if it is negative or positive
- *     * Return: 0
- *      */
+ * main - main block
+ * Description - enter a random number
+ * determine if it is negative or positive
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
