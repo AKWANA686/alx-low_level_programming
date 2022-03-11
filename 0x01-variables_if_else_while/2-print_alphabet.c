@@ -1,11 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - main block
  * Description - prints alphabet in lowercase
- * Return: Always 0 (Success)
+ * Return: 0
  */
 int main(void)
 {
