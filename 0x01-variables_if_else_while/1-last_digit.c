@@ -4,8 +4,8 @@
 
 /**
  * main - main block
- * Description - program that assigns a random number and determines its last digit
- * Prints phrase
+ * Description - assigns a random number and determines its last digit
+ * prints phrase
  * Return: 0
  */
 int main(void)
@@ -25,6 +25,4 @@ int main(void)
 		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, x);
 
 	return (0);
-
-
 }
