@@ -32,6 +32,12 @@ void print_times_table(int n)
 				_putchar('0' + c / 10);
 				_putchar('0' + c % 10);
 			}
+			else
+			{
+				_putchar('0' + c / 100);
+				_putchar('0' + (c - 100) / 10);
+				_putchar('0' + c % 10);
+			}
 			if (b < n)
 			{
 				_putchar(',');
@@ -41,6 +47,5 @@ void print_times_table(int n)
 		_putchar('\n');
 		a++;
 	}
-
 
 }
