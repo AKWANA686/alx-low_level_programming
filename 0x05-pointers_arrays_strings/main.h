@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _main_h_
+#define _main_h_
 
 /**
  * function prototypes go down here
