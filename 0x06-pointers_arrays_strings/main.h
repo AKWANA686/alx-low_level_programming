@@ -21,5 +21,5 @@ char *string_toupper(char *);
 
 char *cap_string(char *);
 
-
+ar *leet(char *);
 #endif
