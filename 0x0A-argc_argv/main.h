@@ -5,6 +5,6 @@
  * function prototypes go down here
  */
 
-int main(int argc, char *arg[]);
+int main(int argc, char *argv[]);
 
 #endif
