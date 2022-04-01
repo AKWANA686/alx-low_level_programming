@@ -4,7 +4,7 @@
 
 /**
  * main - prints the name of the program
- * @argc: number of arguements
+ * @argc: number of arguments
  * @argv: the arguments
  * Return: 0
  */
@@ -18,4 +18,4 @@ int main(int argc, char *argv[])
 		printf("%s\n", argv[a]);
 	}
 	return (0);
-}	
+}
