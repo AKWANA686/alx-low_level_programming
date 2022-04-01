@@ -19,5 +19,7 @@ int _pow_recursion(int x, int y);
 
 int _sqrt_recursion(int n);
 
+int halp(int n, int a);
+
 
 #endif
