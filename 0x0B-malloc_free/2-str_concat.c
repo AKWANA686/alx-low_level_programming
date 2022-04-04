@@ -30,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 		if (d < b)
 			x[d] = s1[d];
 		else
-			x[d] = s2[e++]
+			x[d] = s2[e++];
 	}
 	return (x);
 }
