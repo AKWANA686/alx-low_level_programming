@@ -24,6 +24,6 @@ int _strlen(char *s);
 
 void errors(void);
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[]);
 
 #endif
