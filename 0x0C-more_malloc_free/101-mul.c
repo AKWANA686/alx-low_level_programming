@@ -93,11 +93,11 @@ int main(int argc, char *argv[])
 		if (result[a])
 			b = 1;
 		if (b)
-			_putchar(result[b] + '0');
+			putchar(result[b] + '0');
 	}
 	if (!b)
-		_putchar('0');
-	_putchar('\n');
+		putchar('0');
+	putchar('\n');
 	free(result);
 	return (0);
 }
