@@ -24,19 +24,10 @@ int _isdigit(char *s)
 }
 
 /**
- * errors - returns the errors for main
- */
-
-void errors(void)
-{
-	printf("Error\n");
-	exit(98);
-}
-
-/**
- * strlen - returns the length of the string
+ * _strlen - returns the length of a string
  * @s: string to evaluate
- * Return: length of the string
+ *
+ * Return: the length of the string
  */
 
 int _strlen(char *s)
@@ -48,6 +39,16 @@ int _strlen(char *s)
 		a++;
 	}
 	return (a);
+}
+
+/**
+ * errors - handles errors for main
+ */
+
+void errors(void)
+{
+	 printf("Error\n");
+	  exit(98);
 }
 
 /**
