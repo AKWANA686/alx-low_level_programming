@@ -12,7 +12,7 @@
 
 int *array_range(int min, int max)
 {
-	char *a;
+	int *a;
 	int b, len;
 
 	if (min > max)
@@ -20,7 +20,7 @@ int *array_range(int min, int max)
 
 	len = max - min + 1;
 
-	a = malloc(sizeof(char) * size);
+	a = malloc(sizeof(int) * size);
 	if (a == NULL)
 		return (NULL);
 
