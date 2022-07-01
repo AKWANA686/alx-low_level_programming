@@ -6,7 +6,7 @@
  * @key: key.
  * @value: value associated with the key.
  * Return: 1 if it succeeded, 0 otherwise.
- **/
+ */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	unsigned long int index = 0;
@@ -56,7 +56,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
  * @index: index in the hash table to insert/update the node.
  * @new_node: node to insert into hash table.
  * Return: Always 1.
- **/
+ */
 int hash_table_update(hash_table_t *ht, char *key_, char *value_,
 						unsigned long int index, hash_node_t *new_node)
 {
